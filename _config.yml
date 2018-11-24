@@ -1,9 +1,9 @@
 # Site settings
-title: BY Blog
-SEOTitle: 逯亚东 | BY Blog
+title: BY Luyadong
+SEOTitle: 逯亚东 | BY Luyadong
 header-img: ../img/post-bg-2015.jpg
 email: Lu_yadong8696@163.com
-description: "Every failure is leading towards success."
+description: "Nothing Impossible"
 keyword: "BY,BY Blog,逯亚东的博客,luyadong,电子,模拟电子,数字电子,单片机,python"
 url: "https://luyadong11.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
