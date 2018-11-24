@@ -63,7 +63,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: false    #是否开启Gitalk评论
   clientID: babddbd7d7e31aec88cf                            #生成的clientID
   clientSecret: b058a1242a26e8308b0a680d669ca0d7cc23e1ea    #生成的clientSecret
   repo: luyadong11.github.io    #仓库名称
