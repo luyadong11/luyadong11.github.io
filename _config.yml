@@ -60,16 +60,26 @@ kramdown:
 # disqus_username: luyadong11
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 3e859c0246afa303ada2                            #生成的clientID
-  clientSecret: 0115be4b4ea8346247c18578a29a677a9736e2ee    #生成的clientSecret
-  repo:  luyadong11.github.io    #仓库名称
-  owner: luyadong11    #github用户名
-  admin: luyadong11
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
+<!-- Gitalk 评论 start  -->
 
+<!-- Link Gitalk 的支持文件  -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<div id="gitalk-container"></div>     <script type="text/javascript">
+    var gitalk = new Gitalk({
+
+        clientID: `3e859c0246afa303ada2 `,
+        clientSecret: `0115be4b4ea8346247c18578a29a677a9736e2ee`,
+        repo: `luyadong11.github.io `,
+        owner: 'luyadong11',
+        admin: ['luyadong11'],
+        id: 'luyadong11.github.io/_config.yml', 
+
+    });
+    gitalk.render('gitalk-container');
+</script> 
+<!-- Gitalk end -->
 # 统计
 
 # Analytics settings
